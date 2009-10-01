@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               IO-Handle-Util
-version:            0.01_01
+version:            0.01
 abstract:           ~
 author:  []
 license:            unknown
@@ -11,10 +11,11 @@ build_requires:
     ExtUtils::MakeMaker:  0
 requires:
     asa:            0
+    IO::String:     0
     parent:         0
     Scalar::Util:   0
     Sub::Exporter:  0
-    Test::More:     0
+    Test::More:     0.88
     Test::use::ok:  0
 no_index:
     directory:
